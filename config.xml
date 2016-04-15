@@ -23,7 +23,7 @@
    <icon src = "Images/android/hdpi/ic_launcher.png" 
       gap:platform = "android" gap:qualifier = "hdpi" />
 		
-   <icon src = "Images/android/-xhdpi/ic_launcher.png" 
+   <icon src = "Images/android/xhdpi/ic_launcher.png" 
       gap:platform = "android" gap:qualifier = "xhdpi" />
 		
    <icon src = "res/icon/android/xxhdpi/ic_launcher.png" 
