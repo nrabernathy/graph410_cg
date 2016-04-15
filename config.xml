@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.exampleapp" version = "1.0">
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.cynthiagladden.graph410" version = "1.0">
    
-   <name>Tutorials Point</name>
+   <name>Graph X</name>
    
    <description>
-     Graph 41 Example App Using phonegap
+     Graph X
    </description>
    
-   <author href = "http://cynthiagladden.com" email = cerenee@sbcglobal.net">
-      Tutorials Point
+   <author href = "http://cynthiagladden.com" "email = cerenee@sbcglobal.net">
+      Cynthia Gladden
    </author>
    
    <preference name = "permissions" value = "none"/>
