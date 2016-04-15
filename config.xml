@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><widget xmlns = "http://www.w3.org/ns/widgets" 
+   xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.tutorialspoint.exampleapp" version = "1.0">
+   
+   <name>Tutorials Point</name>
+   
+   <description>
+     Graph 41 Example App Using phonegap
+   </description>
+   
+   <author href = "http://cynthiagladden.com" email = cerenee@sbcglobal.net">
+      Tutorials Point
+   </author>
+   
+   <preference name = "permissions" value = "none"/>
+   
+   <icon src = "images/android/ldpi/playstore-icon.png" 
+      gap:platform = "android" gap:qualifier = "ldpi" />
+		
+   <icon src = "images/android/mdpi/playstore-icon.png" 
+      gap:platform = "android" gap:qualifier = "mdpi" />
+		
+   <icon src = "images/android/hdpi/plystore-icon.png" 
+      gap:platform = "android" gap:qualifier = "hdpi" />
+		
+   <icon src = "images/android/-xhdpi/playstore-icon.png" 
+      gap:platform = "android" gap:qualifier = "xhdpi" />
+		
+   <icon src = "res/icon/android/xxhdpi/playstore-icon.png" 
+      gap:platform = "android" gap:qualifier = "xxhdpi" />
+   
+   <icon src = "images/ios/Icon-72.png" gap:platform = "ios" gap:qualifier = ""/>
+   <icon src = "images/ios/icon-57.png" gap:platform = "ios" width = "57" height = "57" />
+   <icon src = "images/ios/icon-72.png" gap:platform = "ios" width = "72" height = "72" />
+   <icon src = "images/ios/icon-57-2x.png" gap:platform = "ios" width = "114" height = "114" />
+   <icon src = "images/ios/icon-72-2x.png" gap:platform = "ios" width = "144" height = "144" />
+   
+</widget>

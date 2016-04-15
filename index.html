@@ -1,0 +1,226 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>Mobile Site</title>
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<style>#pageone .ui-header  {
+    background: #bfdb9a;
+}</style>
+ <style>
+ #pageone .ui-content {
+	background: #000000;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: medium;
+	font-weight: normal;
+	color: #F5F4F4;
+ }
+ </style>   
+ <style>#pageone .ui-footer { 
+background: #bfdb9a; 
+}</style>
+  
+ <style>#pagetwo .ui-header { 
+    background: #bfdb9a;
+}</style>
+
+
+ <style>#pagetwo .ui-content {
+	background: #ffffcc; 
+ }</style>
+
+  
+  
+ <style>#pagetwo .ui-footer { 
+background: #bfdb9a; 
+}
+</style>
+
+ <style>#pagethree .ui-header { 
+    background: #bfdb9a;
+}</style>
+ 
+  <style>#pagethree .ui-content {
+	background: #ffffcc; 
+ }</style>
+      
+ <style>#pagethree .ui-footer { 
+background: #bfdb9a; 
+}
+</style>
+
+ <style>#pagefour .ui-header { 
+    background: #bfdb9a;
+}</style>
+
+
+ <style>#pagefour .ui-content {
+	background: #ffffcc; 
+ }</style>
+
+      
+ <style>#pagefour .ui-footer { 
+background: #bfdb9a; 
+}
+</style>
+
+ <style>#pagefive .ui-header { 
+    background: #bfdb9a;
+}</style>
+ 
+ 
+  <style>#pagefive .ui-content {
+	background: #ffffcc; 
+ }</style>
+      
+ <style>#pagefive .ui-footer { 
+background: #bfdb9a; 
+}
+</style>
+  
+<!- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="Scripts/swfobject_modified.js"></script>
+</head>
+
+
+
+<body>
+<div data-role="page" id="pageone"> 
+<div data-role="header">
+<a href="#pagetwo" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Home</a>
+<h1>Graphically X-pressive</h1>
+</div>
+<div data-role="main" class="ui-content">
+<p><center>This Site is Designed for Adults Who are Artist</center></p>
+<center><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="269" height="376" id="FlashID" title="heart">
+  <param name="movie" value="cynthia.swf">
+  <param name="quality" value="high">
+  <param name="wmode" value="opaque">
+  <param name="swfversion" value="11.2.0.0">
+  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+  <param name="expressinstall" value="Scripts/expressInstall.swf">
+  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+  <!--[if !IE]>-->
+  <object type="application/x-shockwave-flash" data="cynthia.swf" width="269" height="376">
+    <!--<![endif]-->
+    <param name="quality" value="high">
+    <param name="wmode" value="opaque">
+    <param name="swfversion" value="11.2.0.0">
+    <param name="expressinstall" value="Scripts/expressInstall.swf">
+    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+    <div>
+      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+    </div>
+    <!--[if !IE]>-->
+  </object>
+  <!--<![endif]-->
+</object></center>
+</div>
+
+<div data-role="footer">
+<h5><center><a href="http://www.cynthiagladden.com">Cynthia Gladden</a></center></h5>
+</div>
+</div>
+
+
+<div data-role="page" id="pagetwo">
+<div data-role="header" data-theme="b">
+<a href= "#pagethree" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">About</a>
+<h1>Graphically X-pressive</h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<a href="#pageone" class="ui-btn ui-mini ui-btn-corner-all ui-btn-b" data-rel="back">Go Back</a>
+
+<p><center>This Site is Designed for Adults Who are Artist</center></p>
+</div> 
+<div data-role="footer">
+<h5><center><a href="http://www.cynthiagladden.com">Cynthia Gladden</a></center></h5>
+</div>
+</div>
+
+
+
+
+<div data-role="page" id="pagethree">
+<div data-role="header">
+<a href= "#pagefour" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Gallery</a>
+<h1>Graphically X-pressive</h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<a href="#pagetwo" class="ui-btn ui-mini ui-btn-corner-all ui-btn-b" data-rel="back">Go Back</a>
+<p><center>This Site is Designed for Adults Who are Artist</center></p>
+</div> 
+<div data-role="footer">
+<h5><center><a href="http://www.cynthiagladden.com">Cynthia Gladden</a></center></h5>
+</div>
+</div>
+
+
+
+
+<div data-role="page" id="pagefour">
+<div data-role="header">
+<a href="#pagefive" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Blog</a>
+<h1>Graphically X-pressive</h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<a href="#pagethree" class="ui-btn ui-mini ui-btn-corner-all ui-btn-b" data-rel="back">Go Back</a>
+<p><center>This Site is Designed for Adults Who are Artist</center></p>
+
+ <form method="post" action="demoform.asp">
+      <div class="ui-field-contain">
+        <label for="fullname">Full name:</label>
+        <input type="text" name="fullname" id="fullname">       
+        <label for="bday">Date of Birth:</label>
+        <input type="date" name="bday" id="bday">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Your email..">
+     
+      </div>
+      <input type="submit" data-inline="true" value="Submit">
+    </form>
+</div> 
+<div data-role="footer">
+<h5><center><a href="http://www.cynthiagladden.com">Cynthia Gladden</a></center></h5>
+</div>
+</div>
+
+
+<div data-role="page" id="pagefive">
+<div data-role="header">
+<a href="#pageone" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Contact</a>
+<h1>Graphically X-pressive</h1>
+</div>
+<div data-role="main" class="ui-content">
+
+<a href="#pagefour" class="ui-btn ui-mini ui-btn-corner-all ui-btn-b" data-rel="back">Go Back</a>
+
+<p><center>This Site is Designed for Adults Who are Artist</center></p>
+<center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d377925.71772349125!2d-82.98899839599612!3d42.26689530667585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1460337965847" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+<div data-role="footer">
+<h5><center>
+<a href="http://www.cynthiagladden.com">Cynhia Gladden</a>
+</center></h5>
+
+</div>
+</div> 
+<div data-role="footer">
+<h5><center><a href="http://www.cynthiagladden.com">Cynthia Gladden</a></center></h5>
+</div>
+
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>
